@@ -1,6 +1,6 @@
 import { View, Text, Image, Pressable, StyleSheet, Platform } from "react-native";
 import { useNavigation} from '@rect-navigation/native'
-import MealDetails from "./MealDetals"
+import MealDetails from "./MealDetails"
 
 function MealItem({id, imageURL, duration, complexity, addordability}){
     console.log('title', title)
